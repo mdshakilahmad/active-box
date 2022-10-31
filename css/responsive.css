@@ -1,0 +1,331 @@
+/* (1366x768) WXGA Display */
+@media screen and (min-width: 1366px) and (max-width: 1920px) {}
+
+
+/*Medium Desktop Device*/
+@media screen and (min-width: 1200px) and (max-width: 1366px) {}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner_area h1 {
+        font-size: 50px;
+        line-height: 50px;
+        max-width: 627px;
+        margin: 140px auto 43px auto;
+    }
+
+    .banner_text p {
+        font-size: 16px;
+        line-height: 23px;
+        max-width: 735px;
+        margin-bottom: 55px;
+    }
+}
+
+
+/* Normal desktop :991px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* menu_area start */
+    #main_menu ul {
+        background-color: black;
+        border-radius: 5px;
+    }
+
+    #main_menu ul li {
+        border-radius: 5px;
+    }
+
+    #main_menu ul li {
+        transition: 0.4s;
+    }
+
+    #main_menu ul li a:hover {
+        color: black;
+    }
+
+    #main_menu ul li:hover {
+        background-color: #ffffff;
+    }
+
+    #main_menu ul li a {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    /* menu_area end */
+    /* banner_area start  */
+    .banner_area h1 {
+        font-size: 36px;
+        line-height: 51px;
+        max-width: 518px;
+        margin: 140px auto 43px auto;
+    }
+
+    .banner_text p {
+        font-size: 15px;
+        line-height: 23px;
+        max-width: 545px;
+        margin-bottom: 55px;
+    }
+
+    .banner_area {
+        padding-top: 33px;
+        padding-bottom: 66px;
+    }
+
+    /* banner_area end  */
+    /* icon_items_area start  */
+    .icon_items_area {
+        margin-top: 50px;
+    }
+
+    .icon_items_area h3 {
+        margin: 10px 0;
+    }
+
+    .icon_items_area p {
+        font-size: 12px;
+        margin-bottom: 30px !important;
+    }
+
+    /* icon_items_area end */
+    /* team_area start */
+    .team_area .item_card i {
+        margin-right: 3px;
+    }
+
+    .team_area .pera {
+        margin-top: 20px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .team_area .icon {
+        margin-top: 15px;
+    }
+
+    /* team_area end */
+    /* project_images_area start  */
+    .project_images_area {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    /* project_images_area end */
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    /* menu_area start */
+    #main_menu ul {
+        background-color: black;
+        border-radius: 5px;
+    }
+
+    .navbar a img {
+        width: 135px;
+    }
+
+    #main_menu ul li {
+        border-radius: 5px;
+    }
+
+    #main_menu ul li {
+        transition: 0.4s;
+    }
+
+    #main_menu ul li a:hover {
+        color: black;
+    }
+
+    #main_menu ul li:hover {
+        background-color: #ffffff;
+    }
+
+    #main_menu ul li a {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    /* menu_area end */
+    /* banner_area start  */
+    .banner_text .my_btn {
+        padding: 12px 25px;
+        font-size: 12px;
+    }
+
+    /* banner_area end  */
+    /* team_area start */
+
+    .team_area .icon {
+        margin-top: 10px;
+        margin-bottom: 45px;
+    }
+
+    .team_area .pera {
+        margin-top: 13px;
+    }
+
+    .team_area {
+        margin-bottom: 0;
+    }
+
+    /* team_area end */
+    /* icon_items_area start  */
+    .icon_items_area {
+        padding-top: 50px;
+    }
+
+    .icon_items_area h3 {
+        margin: 10px 0;
+    }
+
+    .icon_items_area p {
+        font-size: 12px;
+        margin-bottom: 30px !important;
+    }
+
+    /* icon_items_area end */
+    /* project_images_area start  */
+    .project_images_area {
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+
+    /* project_images_area end */
+    /* download_area start  */
+    .download_area h2 {
+        font-size: 20px;
+    }
+
+    .download_area p {
+        font-size: 12px;
+    }
+
+    .banner_text .my_btn {
+        padding: 12px 25px;
+        font-size: 12px;
+    }
+
+    .download_area button {
+        padding: 12px 25px;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+
+    .download_area {
+        padding: 30px 0;
+    }
+
+    /* download_area end */
+    /* footer_area start  */
+
+    #footer_area .top i {
+        color: #fff;
+        border: 2px solid #ffffff;
+        padding: 9px 15px;
+        border-radius: 2px;
+        margin-right: 1px;
+        transition: all ease-in-out 0.4s;
+    }
+
+    #footer_area .love_media {
+        margin: 30px 0;
+    }
+
+    #footer_area .main .item h3 {
+        margin-bottom: 10px;
+    }
+
+    #footer_area .main .item .cras {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    #footer_area .top {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #footer_area .main .item p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    /* footer_area end */
+}
+
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    /* banner_area start  */
+    .banner_area h1 {
+        font-size: 25px;
+        font-weight: 700;
+        max-width: 350px;
+        line-height: 35px;
+        margin: 80px auto 25px auto;
+    }
+
+    .banner_text p {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 370px;
+        margin-bottom: 30px;
+    }
+
+    .banner_area {
+        padding-bottom: 50px;
+    }
+
+    /* banner_area end  */
+}
+
+
+/* small mobile :320px. */
+@media (min-width: 240px) and (max-width: 479px) {
+
+    /* banner_area start  */
+    .banner_area {
+        padding-top: 10px;
+        padding-bottom: 45px;
+    }
+
+    .banner_area h1 {
+        font-size: 19px;
+        font-weight: 700;
+        max-width: 228px;
+        line-height: 26px;
+        margin: 85px auto 25px auto;
+    }
+
+    .banner_text p {
+        font-size: 12px;
+        line-height: 20px;
+        max-width: 285px;
+        margin-bottom: 30px;
+    }
+
+    /* banner_area end */
+    /* integer_area start */
+    .slider_item h4 {
+        font-size: 20px !important;
+    }
+
+    .slider_item .text {
+        margin: 0 28px;
+        margin-top: 15px;
+    }
+
+    /* integer_area end */
+    /* footer_area start */
+    #footer_area .bottom .copy p {
+        font-size: 13px;
+    }
+
+    /* footer_area end */
+}
