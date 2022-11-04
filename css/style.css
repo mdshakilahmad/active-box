@@ -300,7 +300,7 @@ header {
 }
 
 .slider_area {
-  background: #53354a;
+  background: #981439;
   height: 100%;
 }
 
@@ -359,7 +359,7 @@ ul {
 
 .download_area p {
   font-size: 13px;
-  color: #2d3033;
+  color: black;
   font-weight: 600;
   font-family: 'Raleway', sans-serif;
   margin-top: 15px;
@@ -372,6 +372,7 @@ ul {
   color: #ffffff;
   border-radius: 5px;
   transition: 0.5s;
+  font-size: 16px;
   background: rgba(156, 30, 64, 1);
 }
 
@@ -385,7 +386,7 @@ ul {
 #footer_area .top {
   padding-top: 70px;
   padding-bottom: 88px;
-  background: #477AA8;
+  background: rgba(156, 30, 64, 1);
 }
 
 #footer_area .top .main .item {
@@ -401,7 +402,7 @@ ul {
 }
 
 #footer_area .main .item p {
-  color: #14100d96;
+  color: #ffffff96;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -428,8 +429,7 @@ ul {
 }
 
 #footer_area .bottom {
-  /* background: #313454; */
-  background-color: #244A6F;
+  background: #981439;
   padding-top: 29px;
   padding-bottom: 30px;
 }
@@ -447,16 +447,6 @@ ul {
   color: black;
   text-align: center;
   font-family: 'Raleway', sans-serif;
-
-
-}
-
-#footer_area .bottom .copy p strong {
-  color: #ffffff;
-}
-
-#footer_area .bottom .copy i {
-  color: red;
 }
 
 /* footer_area end  */
