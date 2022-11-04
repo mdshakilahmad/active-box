@@ -32,19 +32,19 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 10;
 }
 
 .navbar {
   position: sticky;
   top: 0;
   left: 0;
-  background-color: #31344E;
+  background-color: #fff;
 }
 
 /* nav area start  */
 #main_menu ul li a {
-  color: #ffffff;
+  color: #444;
   font-size: 13px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -53,7 +53,7 @@ header {
 }
 
 #main_menu ul li a:hover {
-  color: rgb(203, 215, 177);
+  color: rgba(156, 30, 64, 1);
 }
 
 /* icon start*/
@@ -79,6 +79,8 @@ header {
   background-repeat: no-repeat;
   padding-top: 38px;
   padding-bottom: 156px;
+  position: relative;
+  z-index: 1;
 }
 
 .banner_text {
@@ -89,11 +91,12 @@ header {
   font-size: 65px;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
-  color: #ffffff;
+  color: #fff;
   line-height: 71px;
   max-width: 897px;
   text-align: center;
   margin: 196px auto 43px auto;
+  z-index: 1;
 }
 
 .banner_text p {
@@ -110,13 +113,33 @@ header {
 
 .banner_text .my_btn {
   padding: 19px 54px;
-  color: #ffffff;
+
   font-weight: 600;
-  font-size: 13px;
+  font-size: 16px;
   font-family: "Raleway", sans-serif;
-  background-color: #e84545;
   --bs-btn-border-width: 0;
   --bs-btn-border-color: none;
+  transition: 0.4s;
+  color: #444;
+  background-color: #fff;
+  border: 1px solid transparent;
+}
+
+.banner_text .my_btn:hover {
+  color: #fff;
+  border-color: #fff;
+  background-color: rgba(156, 30, 64, 0.3);
+}
+
+.banner_area::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(156, 30, 64, 0.76);
+  z-index: -1;
 }
 
 /* banner area end  */
@@ -174,7 +197,7 @@ header {
 
 .project_images_area .item .overly {
   position: absolute;
-  background: rgba(255, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.4);
   width: 100%;
   height: 100%;
   top: 0;
@@ -347,9 +370,15 @@ ul {
 .download_area button {
   padding: 15px 80px;
   border: none;
-  background-color: #e84545;
+  /* background-color: #e84545; */
+  background-color: #477AA8;
   color: #ffffff;
   border-radius: 5px;
+  transition: 0.5s;
+}
+
+.download_area button:hover {
+  color: rgb(203, 215, 177);
 }
 
 /* integer_area end  */
@@ -358,7 +387,7 @@ ul {
 #footer_area .top {
   padding-top: 70px;
   padding-bottom: 88px;
-  background: #3a3e64;
+  background: #477AA8;
 }
 
 #footer_area .top .main .item {
@@ -374,7 +403,7 @@ ul {
 }
 
 #footer_area .main .item p {
-  color: #a89f96;
+  color: #14100d96;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -401,7 +430,8 @@ ul {
 }
 
 #footer_area .bottom {
-  background: #313454;
+  /* background: #313454; */
+  background-color: #244A6F;
   padding-top: 29px;
   padding-bottom: 30px;
 }
@@ -416,7 +446,7 @@ ul {
 
 #footer_area .bottom .copy p {
   font-size: 14px;
-  color: #6b6c74;
+  color: black;
   text-align: center;
   font-family: 'Raleway', sans-serif;
 
