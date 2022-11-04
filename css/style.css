@@ -44,7 +44,7 @@ header {
 
 /* nav area start  */
 #main_menu ul li a {
-  color: #444;
+  color: black;
   font-size: 13px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -59,7 +59,7 @@ header {
 /* icon start*/
 .navbar {
 
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.993)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(152, 20, 57, 0.98)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   --bs-navbar-toggler-border-color: none;
 }
 
@@ -239,7 +239,7 @@ header {
 }
 
 .team_area .item_card i:hover {
-  color: yellowgreen;
+  color: rgba(156, 30, 64, 1);
   border-color: aqua;
   border-radius: 5px;
 }
@@ -423,7 +423,7 @@ ul {
 }
 
 #footer_area .top i:hover {
-  color: yellowgreen;
+  color: aqua;
   border-color: aqua;
   border-radius: 5px;
 }
