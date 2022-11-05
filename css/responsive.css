@@ -108,6 +108,10 @@
         margin-top: 15px;
     }
 
+    .team_area {
+        padding-bottom: 50px;
+    }
+
     /* team_area end */
     /* project_images_area start  */
     .project_images_area {
@@ -169,15 +173,11 @@
 
     .team_area .icon {
         margin-top: 10px;
-        margin-bottom: 45px;
+        margin-bottom: 10px;
     }
 
     .team_area .pera {
         margin-top: 13px;
-    }
-
-    .team_area {
-        margin-bottom: 0;
     }
 
     /* team_area end */
