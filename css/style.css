@@ -58,7 +58,6 @@ header {
 
 /* icon start*/
 .navbar {
-
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(152, 20, 57, 0.98)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   --bs-navbar-toggler-border-color: none;
 }
@@ -81,6 +80,17 @@ header {
   padding-bottom: 156px;
   position: relative;
   z-index: 1;
+}
+
+.banner_area::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(156, 30, 64, 0.76);
+  z-index: -1;
 }
 
 .banner_text {
@@ -112,7 +122,6 @@ header {
 
 .banner_text .my_btn {
   padding: 19px 54px;
-
   font-weight: 600;
   font-size: 16px;
   font-family: "Raleway", sans-serif;
@@ -128,17 +137,6 @@ header {
   color: #fff;
   border-color: #fff;
   background-color: rgba(156, 30, 64, 0.3);
-}
-
-.banner_area::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(156, 30, 64, 0.76);
-  z-index: -1;
 }
 
 /* banner area end  */
@@ -169,7 +167,6 @@ header {
 }
 
 /* icon_items_area end  */
-
 /* project_images_area start  */
 .project_images_area {
   margin-top: 48px;
@@ -219,7 +216,6 @@ header {
 }
 
 /* project_images_area end  */
-
 /* team area start  */
 .team_area {
   margin-bottom: 100px;
@@ -275,7 +271,6 @@ header {
 }
 
 /*team area end */
-
 /* integer_area start */
 #integer_area .image {
   height: 100%;
