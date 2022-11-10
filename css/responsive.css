@@ -28,35 +28,12 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
     /* menu_area start */
-    #main_menu ul {
-        background-color: #981439;
-        border-radius: 5px;
-    }
-
-    #main_menu ul li {
-        border-radius: 5px;
-        border: 1px solid #981439;
-    }
-
-    #main_menu ul li {
-        transition: 0.4s;
-    }
-
-    #main_menu ul li a:hover {
-        color: #981439;
-    }
-
-    #main_menu ul li:hover {
-        background-color: #ffffff;
-    }
-
     #main_menu ul li a {
-        text-align: center;
-        margin-left: 0;
-        color: aqua;
+        margin-left: 20px;
     }
 
     /* menu_area end */
+
     /* banner_area start  */
     .banner_area h1 {
         font-size: 36px;
@@ -125,43 +102,26 @@
 /* small mobile :320px. */
 @media (max-width: 767px) {
 
-    /* menu_area start */
-    #main_menu ul {
-        background-color: #981439;
-        border-radius: 5px;
+    /* slick_nav menu start */
+    #main_menu {
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
-    .navbar a img {
-        width: 135px;
+    .slicknav_menu {
+        display: block;
     }
 
-    #main_menu ul li {
-        border-radius: 5px;
-        border: 1px solid #981439;
-    }
-
-    #main_menu ul li {
-        transition: 0.4s;
-    }
-
-    #main_menu ul li a:hover {
-        color: #981439;
+    #main_menu .logo {
+        line-height: 70px;
     }
 
     #main_menu ul li a {
-        color: aqua;
+        display: none;
     }
 
-    #main_menu ul li:hover {
-        background-color: #ffffff;
-    }
-
-    #main_menu ul li a {
-        text-align: center;
-        margin-left: 0;
-    }
-
-    /* menu_area end */
+    /* slick_nav menu end*/
     /* banner_area start  */
     .banner_text .my_btn {
         padding: 12px 25px;

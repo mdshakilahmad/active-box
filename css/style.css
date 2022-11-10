@@ -27,7 +27,7 @@ span {
 }
 
 /* common css end */
-header {
+/* header {
   position: fixed;
   width: 100%;
   top: 0;
@@ -40,7 +40,7 @@ header {
   top: 0;
   left: 0;
   background-color: #fff;
-}
+} */
 
 /* nav area start  */
 #main_menu ul li a {
@@ -56,18 +56,72 @@ header {
   color: rgba(156, 30, 64, 1);
 }
 
-/* icon start*/
-.navbar {
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(152, 20, 57, 0.98)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-  --bs-navbar-toggler-border-color: none;
+#main_menu {
+  height: 80px;
 }
 
-.navbar-toggler:focus {
-  box-shadow: none;
+#main_menu .main {
+  line-height: 80px;
 }
 
-/* icon end */
+#main_menu .logo {
+  width: 25%;
+}
 
+#main_menu .menu {
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*slick nav header area start  */
+.slicknav_menu {
+  display: none;
+}
+
+.slicknav_nav {
+  clear: both;
+  color: #fff;
+  margin: 0;
+  font-size: .875em;
+  background-color: #981439;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+  background-color: #981439;
+}
+
+.slicknav_btn {
+  background: none;
+}
+
+.slicknav_menu .slicknav_menutxt {
+  display: none;
+}
+
+.slicknav_menu {
+  background: #ffffff;
+  padding: 18px;
+}
+
+
+.slicknav_menu .slicknav_open .slicknav_icon-bar:nth-child(1) {
+  transform: rotate(45deg) translate(1px, 7px);
+  transition: 0.4s;
+}
+
+.slicknav_menu .slicknav_open .slicknav_icon-bar:nth-child(2) {
+  opacity: 0;
+}
+
+.slicknav_menu .slicknav_open .slicknav_icon-bar:nth-child(3) {
+  transform: rotate(-45deg) translateY(-6px);
+  transition: 0.4s;
+}
+
+/*slick nav header area end  */
 /* nav area end  */
 
 /* banner area satrt  */

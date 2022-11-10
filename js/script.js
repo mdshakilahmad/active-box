@@ -37,3 +37,17 @@ function smoothScrolling($links, $topGap) {
 
 // scrol_my_menu_select end
 
+// slick nav start
+	$(function(){
+		$('#menu').slicknav();
+	});
+  
+// slick nav end
+
+// menu hide start
+$('ul#nav_menu').slicknav({
+  prependTo: ".responsive-menu-wrap"
+});
+
+// menu hide end
+
